@@ -1,0 +1,6 @@
+def search_product(name):
+    for product in products.values():
+        if product["name"].lower() == name.lower():
+            return product
+
+    return None
